@@ -1,9 +1,11 @@
+import { LandingHero } from "./landing-hero";
+import { LandingStory } from "./landing-story";
+
 export const Landing = () => {
   return (
-    <div>
-      <h1 className="text-5xl">
-        Landing Page
-      </h1>
-    </div>
-  )
-}
+    <main className="w-full min-h-screen">
+      <LandingHero />
+      <LandingStory />
+    </main>
+  );
+};
